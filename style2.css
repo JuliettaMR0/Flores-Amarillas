@@ -1,0 +1,183 @@
+header {
+  /* background-image: url(https://img3.wallspic.com/previews/0/2/5/9/39520/39520-cielo_de_la_noche-caricatura-estrella-graficos_vectoriales-negro-x750.jpg);
+  background-size: cover; */
+  background-color: rgba(40, 65, 8, 0.534);
+  color: #fff;
+  padding: 20px 0;
+  position: fixed; /* Fija el header en la parte superior */
+  top: 0; /* Coloca el header en la parte superior */
+  left: 0;
+  right: 0; /* Ocupa todo el ancho de la pantalla */
+  z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.911);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/*PARTE DEL BODY*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1596501048547-e9acb71ca798?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  background-size: cover;
+  /* background: #07101b; */
+  font-family: "Phudu", cursive;
+  font-weight: 600;
+  overflow: auto;
+  flex-direction: column;
+}
+
+#hero {
+  display: flex;
+  margin-top: 80px;
+  height: 100px;
+  width: 100px;
+}
+
+.heart {
+  height: 70px;
+  width: 70px;
+  background: #05c03d;
+  position: relative;
+  transform: rotate(-45deg);
+  box-shadow: -10px 10px 90px #01db1e;
+  animation: heart 0.6s linear infinite;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+@keyframes heart {
+  0% {
+    transform: rotate(-45deg) scale(1.07);
+  }
+  80% {
+    transform: rotate(-45deg) scale(1.04);
+  }
+  100% {
+    transform: rotate(-45deg) scale(1);
+  }
+}
+
+.heart:before {
+  content: "";
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background: #c5b206;
+  top: -50%;
+  border-radius: 50px;
+  box-shadow: -10px 10px 90px #d49c03;
+}
+
+.heart:after {
+  content: "";
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background: #c5b206;
+  right: -50%;
+  border-radius: 50px;
+  box-shadow: -10px 10px 90px #7e3f04;
+}
+
+#main {
+  display: flex;
+}
+
+/*PARTE DE LOS VIDEOS*/
+
+/* Estilos para los títulos h3 encima de los videos */
+.video-container {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.video-item {
+  flex: 0 0 calc(33.33% - 20px); /* Ancho del 33.33% para cada video en una fila */
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 18px; /* Tamaño del título */
+  margin-bottom: 10px; /* Espacio inferior del título */
+  color: #f3f3f3; /* Color del título */
+  font-weight: 500px;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.966);
+}
+
+/* Estilos para los iframes de video */
+iframe {
+  width: 100%;
+  height: 315px; /* Altura fija para los videos */
+  border: none; /* Elimina el borde del iframe */
+}
+
+/* .video-container {
+  text-align: center; 
+  margin-right: 30px;
+}
+
+.video-container {
+  text-align: center; 
+  background-color: #020e05; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px rgb(255, 251, 20); 
+  padding: 10px; 
+  margin-top: 100px; 
+} */
+
+/* SECTION DE LA PLAYLIST*/
+
+#play {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para la sección de la playlist */
+.playlist {
+  text-align: center; /* Centra el contenido horizontalmente */
+  padding: 20px; /* Espacio interno alrededor del contenido */
+  margin-top: 100px; /* Espacio entre la sección y el contenido anterior */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.644); /* Sombra suave */
+  color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.playlist:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada al pasar el mouse */
+}
+
+.playlist h2 {
+  font-size: 24pxa; /* Tamaño del título */
+  margin-bottom: 10px; /* Espacio inferior del título */
+}
+
+.playlist p {
+  font-size: 16px; /* Tamaño del párrafo */
+}

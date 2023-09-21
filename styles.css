@@ -1,0 +1,201 @@
+header {
+<<<<<<< HEAD
+  text-align: center;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(40, 65, 8, 0.8);
+  z-index: 2;
+}
+
+.title {
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #f1f1f1;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.911);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  background-image: url("https://www.todofondos.net/wp-content/uploads/girasoles-campo-%E2%9D%A4-fondo-de-escritorio-de-4k-hd-para-4k-ultra-hd-scaled.jpg");
+  background-size: cover;
+  font-family: "Phudu", cursive;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.flower-container {
+  display: flex;
+  padding-top: 100px;
+}
+
+.flower {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+  background-size: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.flower.blooming {
+  transform: scale(1.1);
+}
+
+.flower-text {
+  position: absolute;
+  top: 100%; /* Coloca el texto debajo de la flor */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.911);
+  color: #ebe1e1;
+  opacity: 0;
+  transition: opacity 0.3s;
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+=======
+    text-align: center;
+    margin-bottom: 20px;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    background-color: rgba(40, 65, 8, 0.8); 
+    z-index: 2; 
+}
+
+.title {
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #f1f1f1;
+    font-weight: 600;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.911);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url('https://www.todofondos.net/wp-content/uploads/girasoles-campo-%E2%9D%A4-fondo-de-escritorio-de-4k-hd-para-4k-ultra-hd-scaled.jpg');
+    background-size: cover;
+    font-family: 'Phudu', cursive;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.flower-container {
+    display: flex;
+    padding-top: 100px;
+}
+
+.flower {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.flower.blooming {
+    transform: scale(1.1);
+}
+
+.flower-text {
+    position: absolute;
+    top: 100%; /* Coloca el texto debajo de la flor */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.911);
+    color: #ebe1e1;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+>>>>>>> 6eb106dec2258e8774022038407033be9a049b6c
+}
+
+/* COMIENZO DE LA GALERIA DE IMAGENS */
+
+.gallery {
+<<<<<<< HEAD
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.gallery h2 {
+  font-size: 24px;
+  color: #e9e5e5;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.911);
+}
+
+/*CSS DEL BOTON */
+
+.center-button {
+  text-align: center;
+}
+
+.center-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(
+    40,
+    65,
+    8,
+    0.8
+  ); /* Color de fondo del botón, puedes cambiarlo */
+  color: #fff; /* Color del texto del botón, puedes cambiarlo */
+  text-shadow: 2px 2px 4px black;
+  text-decoration: none;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+}
+
+.center-button a:hover {
+  background-color: #06330d; /* Cambia el color de fondo cuando se pasa el cursor sobre el botón */
+}
+=======
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.gallery h2 {
+    font-size: 24px;
+    color: #e9e5e5;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.911);
+}
+
+>>>>>>> 6eb106dec2258e8774022038407033be9a049b6c
